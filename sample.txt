@@ -1,1 +1,1 @@
-cloudfront,s3テスト
+cloudfront,s3 
