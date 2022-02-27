@@ -1,1 +1,1 @@
-hogehogehogehogehogehogehoge2222
+cloudfront,s3テスト
