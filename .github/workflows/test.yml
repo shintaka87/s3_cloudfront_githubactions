@@ -28,9 +28,9 @@ jobs:
         env:
           S3_UPLOAD_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
-          # aws s3 rm s3://$S3_UPLOAD_BUCKET --recursive
 
-          aws s3 cp sample.txt s3://$S3_UPLOAD_BUCKET/sample.txt --recursive
+
+          aws s3 cp sample.txt s3://$S3_UPLOAD_BUCKET/ --recursive
 
       - name: make invalidation to cloudfront
         uses: chetan/invalidate-cloudfront-action@master
